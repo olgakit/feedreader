@@ -7,10 +7,13 @@ Testing the existing web-based application that displays Udacity blog RSS feeds 
 * [Credits](#credits)
 
 ## Instructions
-To run the application online, use the following link:
+To run the application online in Chrome, use the following link:
 https://olgakit.github.io/feedreader/
+Navigate to the address line at the top and click the shield symbol to the right, select "Load Unsafe Scripts".
 
 To run the application locally, download this github repository. Open the index.html file in the browser.
+
+The test results can be found at bottom of the page after the main content.
 
 Jasmine Tests:
 
