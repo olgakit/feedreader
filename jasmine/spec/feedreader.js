@@ -77,7 +77,7 @@ $(function() {
              loadFeed(0, done);
          });
          it('show upon the load', function() {
-              expect($("article h2").length).not.toBe(0);
+             expect($(".feed .entry").length).not.toBe(0);
          });
     });
 
@@ -95,7 +95,7 @@ $(function() {
                  Array.from(entries).forEach(function(entry) {
                     firstFeed.push(entry.innerText);
                  });
-                 console.log(firstFeed);
+                 // console.log(firstFeed);
                  loadFeed(1, function() {
                      //each link's title from the next feed is pushed into the firstFeed
                      //variable as an array
@@ -103,7 +103,7 @@ $(function() {
                         newFeed.push(entry.innerText);
                      });
                      done();
-                     console.log(newFeed);
+                     // console.log(newFeed);
                  });
              });
          });
